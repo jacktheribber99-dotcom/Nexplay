@@ -3,35 +3,28 @@
     padding: 20px;
 }
 
-@media (max-width: 768px) {
-  transform: scale(1.5);      /* increase everything */
-  transform-origin: top left;  /* keeps it anchored */
-  width: 66.6666%;             /* 1 / 1.5 scale */
-}
-
-
 .title {
   font-family: 'Oxanium', sans-serif;
   font-size: 70px;
   color: transparent;
   text-shadow:
-    2px 0 0 #a73103,
-   -2px 0 0 #000000,
-    0 2px 0 #a73103,
-    0 -2px 0 #000000;
+    2px 0 0 #ffffff,
+   -2px 0 0 #8f0f0f,
+    0 2px 0 #ffffff,
+    0 -2px 0 #5c0000;
 }
 
 
 .gamedec {
     margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: hsla(0, 0%, 100%, 0.829);
+    color: hsl(0, 0%, 100%);
     font-weight: bold;
     text-align: center;
     text-shadow:
-            2px 0 0 #a73103,
+            2px 0 0 #810505,
         -2px 0 0 #000000,
-            0 2px 0 #a73103,
+            0 2px 0 #751111,
             0 -2px 0 #000000;
 }
 
