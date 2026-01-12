@@ -1,0 +1,141 @@
+.body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.title {
+  font-family: 'Oxanium', sans-serif;
+  font-size: 70px;
+  color: transparent;
+  text-shadow:
+    2px 0 0 #a73103,
+   -2px 0 0 #000000,
+    0 2px 0 #a73103,
+    0 -2px 0 #000000;
+}
+
+
+.gamedec {
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsla(0, 0%, 100%, 0.829);
+    font-weight: bold;
+    text-align: center;
+    text-shadow:
+            2px 0 0 #a73103,
+        -2px 0 0 #000000,
+            0 2px 0 #a73103,
+            0 -2px 0 #000000;
+}
+
+.background {
+    background-image: url('https://wallpaperaccess.com/full/6827501.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+
+h1 {
+    color: #fffafa;
+    text-align: center;
+}
+
+h2 {
+    color: #fffbfb;
+    text-align: center;
+}
+
+.game-list {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-item {
+    background: rgba(70, 66, 66, 0.705);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 15px;
+    width: 150px;
+    height: 250px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.game-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-item h3 {
+    text-align: center;
+    margin: 0 0 10px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: center;
+    display: block;
+}
+
+.game-item p {
+    margin-top: 10px ;
+    text-align: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.game-item button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgb(255, 25, 25);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    width: 55xpx;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.game-item button:hover {
+    background: rgb(200, 100, 100);
+    transform: scale(1.05);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-image1 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/146d81d3-58f4-45c2-957e-1dc554a4a869/dfszplb-2e80a51b-d6e2-4a90-bc21-46cc44a08fdc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xNDZkODFkMy01OGY0LTQ1YzItOTU3ZS0xZGM1NTRhNGE4NjkvZGZzenBsYi0yZTgwYTUxYi1kNmUyLTRhOTAtYmMyMS00NmNjNDRhMDhmZGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8xRVKV5AVqk_kqjBbsYsvZlXYoaLjhQT1f6cv_3gFLA');
+    background-size: cover;
+    block-size: auto;
+    background-position: center;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
