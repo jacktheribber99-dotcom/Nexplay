@@ -3,6 +3,13 @@
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+  transform: scale(1.5);      /* increase everything */
+  transform-origin: top left;  /* keeps it anchored */
+  width: 66.6666%;             /* 1 / 1.5 scale */
+}
+
+
 .title {
   font-family: 'Oxanium', sans-serif;
   font-size: 70px;
